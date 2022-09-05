@@ -1,7 +1,18 @@
-h1 {
-  color: blue;
+:root {
+  --primary-color: #dfe8cc;
+  --heading-font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-hero {
-  background-color: #efefef;
+h1 {
+  color: rgb(13, 13, 14);
+  font-family: var(heading-font-family)
+  font-size: 75px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+.hero {
+  background-color: var(--primary-color)
+  text-align: center;
+  padding: 160px 20px;
 }
