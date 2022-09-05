@@ -1,18 +1,35 @@
 :root {
   --primary-color: #b1d7b4;
   --heading-font-family: Verdana, Geneva, Tahoma, sans-serif;
+  --secondary-font-family: "Roboto", sans-serif;
 }
 
-h1 {
-  color: rgb(13, 13, 14);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
   font-family: var(--heading-font-family);
-  font-size: 75px;
   font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
   margin-bottom: 80px;
+}
+h2 {
+  font-family: var(--secondary-font-family);
 }
 
 .hero {
   background-color: var(--primary-color);
   text-align: center;
   padding: 160px 20px;
+}
+
+.btn-branding {
+  background-color: #95979c;
+  border-radius: 20px;
 }
