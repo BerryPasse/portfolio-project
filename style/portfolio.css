@@ -18,8 +18,6 @@ h6 {
 h2 {
   font-size: 30px;
   margin-bottom: 80px;
-}
-h2 {
   font-family: var(--secondary-font-family);
 }
 
@@ -32,4 +30,15 @@ h2 {
 .btn-branding {
   background-color: #95979c;
   border-radius: 20px;
+}
+
+.selfie {
+  max-width: 300px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.about-hero h1 {
+  font-size: 34px;
+  line-height: 60px;
 }
