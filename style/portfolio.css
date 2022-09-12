@@ -66,10 +66,6 @@ h2 {
   display: block;
 }
 
-.first-row {
-  width: 100%;
-  height: 100%;
-}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -92,4 +88,15 @@ navigation-links a {
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding 0 4px;
+}
+
+.column{
+  flex: 33%;
+  padding 0 4px;
 }
