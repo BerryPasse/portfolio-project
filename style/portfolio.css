@@ -36,6 +36,7 @@ h2 {
   border-radius: 20px;
 }
 
+
 .btn-branding2 {
   background-color: #cedacf;
   border-radius: 20px;
@@ -99,4 +100,19 @@ navigation-links a {
 .column{
   flex: 33%;
   padding 0 4px;
+}
+
+.email{
+  text-decoration: none;
+  color:black;
+  font-family: var(--secondary-font-family)
+}
+
+.contact{
+  text-align: center;
+}
+.media{
+  font-size: 25px;
+  padding: 40px
+  
 }
