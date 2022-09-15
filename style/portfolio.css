@@ -67,18 +67,6 @@ h2 {
   display: block;
 }
 
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: space-evenly;
-}
-navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
 
 .contact-link {
   background: var(--primary-color);
@@ -104,15 +92,21 @@ navigation-links a {
 
 .email{
   text-decoration: none;
-  color:black;
   font-family: var(--secondary-font-family)
+}
+
+.email:hover{
+    color:#DD2A7B;
 }
 
 .contact{
   text-align: center;
 }
 .media{
-  font-size: 25px;
+  font-size: 35px;
   padding: 40px
-  
-}
+  }
+
+  .media1:{
+    color:black;
+  }
