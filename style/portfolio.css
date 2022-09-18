@@ -112,4 +112,7 @@ text-align: center;
   .media1:{
     color:black;
   }
-  
+.img{
+  width:200px;
+  height:300px
+}
